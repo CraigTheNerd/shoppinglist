@@ -1,3 +1,5 @@
 <?php
+require_once '../app/bootstrap.php';
 
-echo 'shopping list';
+//  Instantiate Core Library
+$init = new Core();
