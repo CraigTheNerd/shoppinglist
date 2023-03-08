@@ -20,6 +20,24 @@
         <p class="card-text">
             <?php echo $item->item_desc; ?>
         </p>
+
+        <div>
+            <p>
+                <?php echo $item->item_completed; ?>
+            </p>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="item_checked" name="item_checked" value="1">
+                    <label class="form-check-label" for="item_checked">
+                        Mark as Completed
+                    </label>
+                </div>
+            </div>
+        </div>
+
         <a href="<?php echo URLROOT; ?>/items/show/<?php echo $item->itemId; ?>" class="btn btn-dark">More</a>
     </div>
 

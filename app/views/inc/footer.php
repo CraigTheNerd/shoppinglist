@@ -7,6 +7,6 @@
 
 
 <!--    Custom JS   -->
-<script src="<?php echo URLROOT; ?>/js/main.js"></script>
+<script src="<?php echo URLROOT; ?>/public/js/itemCompleted.js"></script>
 </body>
 </html>
